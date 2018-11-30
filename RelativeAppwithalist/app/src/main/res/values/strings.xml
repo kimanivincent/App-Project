@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Relative App with a list</string>
+    <string-array name="majina">
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+        <item>Vincent Kimani</item>
+    </string-array>
+
+</resources>

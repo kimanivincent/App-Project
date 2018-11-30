@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "829790316171",
+    "firebase_url": "https://healthwise-ba58d.firebaseio.com",
+    "project_id": "healthwise-ba58d",
+    "storage_bucket": "healthwise-ba58d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829790316171:android:022e67a1a2d8a59f",
+        "android_client_info": {
+          "package_name": "com.example.vince.healthwise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829790316171-mfcj5o8niqjb65o7e7g99q6fgfrqi7o7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vince.healthwise",
+            "certificate_hash": "86a723f2d19c47d8673cc3338b75914352498c10"
+          }
+        },
+        {
+          "client_id": "829790316171-tpeeedp0d72hjbf6u8vemlrsiqf9ma5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM0YicMtnzU7aA0Bx3VvkTCpuGLQ0_twI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829790316171-tpeeedp0d72hjbf6u8vemlrsiqf9ma5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

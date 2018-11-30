@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="Please fill all the spaces provided."
+            android:textStyle="bold"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <EditText
+            android:id="@+id/edtthree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="68dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <EditText
+            android:id="@+id/edtfour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="159dp"
+            android:ems="10"
+            android:hint="Second Name"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="123dp" />
+
+
+        <EditText
+            android:id="@+id/edtfive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="241dp"
+            android:ems="10"
+            android:hint="I.D Number"
+            android:inputType="number"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtsix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtfive"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="42dp"
+            android:ems="10"
+            android:hint="E-mail"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtseven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtsix"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:textStyle="bold"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edteight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtseven"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:hint="Age"
+            android:textStyle="bold"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtnine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edteight"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:hint="Date of Birth"
+            android:textStyle="bold"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/edten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtnine"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="29dp"
+            android:ems="10"
+            android:hint="N.H.I.F Number"
+            android:inputType="number"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnsix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="31dp"
+            android:background="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/btnseven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="31dp"
+            android:background="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Refresh" />
+    </RelativeLayout>
+
+</ScrollView>

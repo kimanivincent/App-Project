@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "189811023196",
+    "firebase_url": "https://ehealthsystem-53ed2.firebaseio.com",
+    "project_id": "ehealthsystem-53ed2",
+    "storage_bucket": "ehealthsystem-53ed2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189811023196:android:a6cdd203e35ae068",
+        "android_client_info": {
+          "package_name": "com.example.vince.e_healthsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189811023196-0ud37h0q0ebq1dfnkodtvo9i5ees7si0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vince.e_healthsystem",
+            "certificate_hash": "86a723f2d19c47d8673cc3338b75914352498c10"
+          }
+        },
+        {
+          "client_id": "189811023196-6in1r0b81emulmkvkeqgm01b97ue1uro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWFPFcEDOZmVZKiZenvNwoDlVJMpTxYOs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189811023196-6in1r0b81emulmkvkeqgm01b97ue1uro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
